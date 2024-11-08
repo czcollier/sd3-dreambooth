@@ -1,8 +1,8 @@
 export MODEL_NAME="stabilityai/stable-diffusion-3.5-medium"
 export INSTANCE_DATA_DIR="sd-data/training/instance/mdx/2014_5"
 export OUTPUT_DIR="trained-sd3-lora"
-export INSTANCE_PROMPT="a photo of mdxgalxorf woman"
-export VALIDATION_PROMPT="a pretty photo of mdxgalxorf woman"
+export INSTANCE_PROMPT=""
+export VALIDATION_PROMPT=""
 
 huggingface-cli login --token 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 
 
